@@ -4,7 +4,7 @@
 
 Thành viên:
 * [x] **1412269** Hà Mạnh Kiệt (1412269)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [x] **1412282** Nguyễn Hoàng Lân (1412282)
 
 URL: **URL hosting của bài tập**
 
