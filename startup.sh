@@ -1,6 +1,5 @@
 #!/bin/bash
 # Startup scripts
-rails new . --database=postgresql
 rm -f /web/tmp/pids/server.pid
 bundle install
 rails db:create
