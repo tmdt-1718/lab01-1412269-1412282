@@ -5,6 +5,7 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag '/css/style.css' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
@@ -37,6 +38,25 @@
     </nav>
     <div class="container-fruid">
     <%= yield %>
+    </div>
+    <div class="footer-defi text-center center-block">
+      <div class="row">
+        <div class="col-md-4 photograph-blog">
+          Photograph blog
+        </div>
+      </div>
+      <a href="https://www.facebook.com/" target="_blank">
+        <i class="fa fa-facebook-square fa-4x social" aria-hidden="true" id="social-fb"></i>
+      </a>
+      <a href="https://twitter.com/" target="_blank">
+        <i class="fa fa-twitter-square fa-4x social" aria-hidden="true" id="social-tw"></i>
+      </a>
+      <a href="https://plus.google.com/" target="_blank">
+        <i class="fa fa-google-plus-square fa-4x social" aria-hidden="true" id="social-gp"></i>
+      </a>
+      <a href="#">
+        <i id="social-em" class="fa fa-envelope-square fa-4x social"></i>
+      </a>
     </div>
   </body>
 </html>
