@@ -50,6 +50,7 @@ Liệt kê các **yêu cầu nâng cao** đã thực hiện:
 
 Link ảnh GIF demo ứng dụng:
 
+#### Chức năng xem albums
 ![Chức năng xem albums](https://github.com/tmdt-1718/lab01-1412269-1412282/blob/master/LiceCap/demo_albums.gif)
 
 ![Video Walkthrough](demo.gif)
