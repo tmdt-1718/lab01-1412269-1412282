@@ -6,7 +6,7 @@ Thành viên:
 * [x] **1412269** Hà Mạnh Kiệt (1412269)
 * [x] **1412282** Nguyễn Hoàng Lân (1412282)
 
-URL: **URL hosting của bài tập** https://lab1-rails.herokuapp.com/
+URL: **URL hosting của bài tập** https://rails-lab1-1412269-1412282.herokuapp.com/
 
 ## Yêu cầu
 
