@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Album.delete_all
 
-Album.create!(album_id: 1, cover: '/Albums/album1/cover.jpg', name_create: 'Kiet', view: 0)
-Album.create!(album_id: 2, cover: '/Albums/album2/cover.jpg', name_create: 'Lan', view: 2)
-Album.create!(album_id: 3, cover: '/Albums/album3/cover.jpg', name_create: 'Cuong', view: 6)
-Album.create!(album_id: 4, cover: '/Albums/album4/cover.jpg', name_create: 'Linh', view: 20)
+Album.create!(cover: '/Albums/album1/cover.jpg', name_create: 'Kiet', view: 0)
+Album.create!(cover: '/Albums/album2/cover.jpg', name_create: 'Lan', view: 2)
+Album.create!(cover: '/Albums/album3/cover.jpg', name_create: 'Cuong', view: 6)
+Album.create!(cover: '/Albums/album4/cover.jpg', name_create: 'Linh', view: 20)

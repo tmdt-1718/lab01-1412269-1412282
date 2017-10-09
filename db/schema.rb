@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 20171009050941) do
   enable_extension "plpgsql"
 
   create_table "albums", force: :cascade do |t|
-    t.integer "album_id"
     t.string "cover"
     t.string "name_create"
     t.integer "view"
