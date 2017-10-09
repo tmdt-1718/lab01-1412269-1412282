@@ -4,12 +4,17 @@
   <div class="col-md-4">
     <div class="album">
       <p><%=album.album_id%></p>
-      <div class="cover">
+      <div class="cover img-fluid img-thumbnail">
         <img src="<%=album.cover%>" alt="">
       </div>
-      <p><%=album.name_create%></p>
-      <p>View
-        <%=album.view%></p>
+      <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <%=album.name_create%>
+        </div>
+        <div class="col-sm-6 col-md-6 text-right">
+          View <%=album.view%>
+        </div>
+      </div>
     </div>
   </div>
   <% end %>
