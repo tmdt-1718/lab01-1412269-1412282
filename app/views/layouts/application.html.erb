@@ -37,10 +37,24 @@
       </div>
     </nav>
 
+
+
+
+
+
     <div class="container-fruid">
       <div class="row">
         <div class="col-sm-4 col-md-3">
-          <div class="list-group">
+
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="list-group" style="width:100%" >
+
             <span href="#" class="list-group-item active">
               Left menu
             </span>
@@ -62,18 +76,23 @@
             </a>
           </div>
         </div>
+        </nav>
+      </div>
         <div class="col-sm-8 col-md-9">
           <%= yield %>
         </div>
       </div>
     </div>
 
+
+
     <div class="footer-defi text-center center-block">
       <div class="row">
         <div class="col-md-4 photograph-blog">
           Photograph blog
         </div>
-      </div>
+
+      <div class ="col-md-8">
       <a href="https://www.facebook.com/" target="_blank">
         <i class="fa fa-facebook-square fa-4x social" aria-hidden="true" id="social-fb"></i>
       </a>
@@ -87,5 +106,8 @@
         <i id="social-em" class="fa fa-envelope-square fa-4x social"></i>
       </a>
     </div>
+    </div>
+  </div>
+
   </body>
 </html>
