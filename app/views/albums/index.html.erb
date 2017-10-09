@@ -1,0 +1,16 @@
+<h1>Albums</h1>
+<div class="row">
+  <% @albums.each do |album| %>
+  <div class="col-md-4">
+    <div class="album">
+      <p><%=album.album_id%></p>
+      <div class="cover">
+        <img src="<%=album.cover%>" alt="">
+      </div>
+      <p><%=album.name_create%></p>
+      <p>View
+        <%=album.view%></p>
+    </div>
+  </div>
+  <% end %>
+</div>
